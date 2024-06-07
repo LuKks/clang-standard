@@ -1,6 +1,6 @@
 {
   "name": "clang-standard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage clang-format to init, check, and fix",
   "main": "index.js",
   "bin": {
