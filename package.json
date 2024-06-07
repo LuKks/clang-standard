@@ -1,0 +1,36 @@
+{
+  "name": "clang-standard",
+  "version": "0.0.0",
+  "description": "Manage clang-format to init, check, and fix",
+  "main": "index.js",
+  "bin": {
+    "clang-standard": "bin.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "template.clang-format"
+  ],
+  "scripts": {
+    "test": "standard && brittle test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukks/clang-standard.git"
+  },
+  "author": "Lucas Barrena (LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukks/clang-standard/issues"
+  },
+  "homepage": "https://github.com/lukks/clang-standard#readme",
+  "devDependencies": {
+    "brittle": "^3.3.2",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "safety-catch": "^1.0.2",
+    "test-tmp": "^1.2.1"
+  }
+}
