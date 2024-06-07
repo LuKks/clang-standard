@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const test = require('brittle')
-const tmp = require('test-tmp')
+const tmp = require('like-tmp')
 const standard = require('./index.js')
 
 test('basic', async function (t) {

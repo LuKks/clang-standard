@@ -26,11 +26,11 @@
   "homepage": "https://github.com/lukks/clang-standard#readme",
   "devDependencies": {
     "brittle": "^3.3.2",
+    "like-tmp": "^1.0.0",
     "standard": "^17.1.0"
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "safety-catch": "^1.0.2",
-    "test-tmp": "^1.2.1"
+    "safety-catch": "^1.0.2"
   }
 }
